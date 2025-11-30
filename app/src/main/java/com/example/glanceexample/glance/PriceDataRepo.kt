@@ -4,6 +4,7 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlin.random.Random
 
+
 object PriceDataRepo {
     var ticker = "GOOGL"
     private var previousPrice = 0f
